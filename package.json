@@ -1,0 +1,16 @@
+{
+  "name": "http-tasker",
+  "version": "0.0.1",
+  "description": "HTTP triggered task server",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "http",
+    "task",
+    "server"
+  ],
+  "author": "Bryan Way",
+  "license": "MIT"
+}
