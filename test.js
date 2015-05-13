@@ -3,7 +3,7 @@ var httpTasker = require('./index.js');
 httpTasker.createServer({
 	'/test': function() {
 		// The initialization function. Perform task setup here. Returns the function that does the actual processing.
-		return function(query, requestBody) {
+		return function(method, query, requestBody) {
 			return 'Congrats! This task has been configured, loaded, and executed correctly';
 		};
 	}

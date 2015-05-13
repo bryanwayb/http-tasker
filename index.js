@@ -25,7 +25,7 @@ exports.createServer = function(tasks, onError) {
 			
 			request.on('end', function () {
 				response.writeHead(200);
-				response.end(taskProcessors[taskAction](parsedUrl.query, requestBody));
+				response.end(taskProcessors[taskAction](request.method, parsedUrl.query, requestBody));
 			});
 		}
 		catch(e) {
