@@ -25,12 +25,12 @@ exports.createServer = function(tasks, onError) {
 			
 			request.on('end', function () {
 				response.writeHead(200);
-				response.end(taskProcessors[taskAction](request.method, parsedUrl.query, requestBody));
+				response.end(taskProcessors[taskAction](request, response, parsedUrl, requestBody));
 			});
 		}
 		catch(e) {
 			response.writeHead(500);
-			response.end(onError === undefined ? undefined : onError(e));
+			response.end(onError === undefined ? undefined : onError(request, response, e));
 		}
 	});
 };
