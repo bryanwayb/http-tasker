@@ -1,7 +1,4 @@
-[![release]](https://github.com/bryanwayb/http-tasker/releases)
-[![development]](https://github.com/bryanwayb/http-tasker/tags)
-[![grade]](https://www.codacy.com/app/bryanwayb/http-tasker)
-[![issues]](https://github.com/bryanwayb/http-tasker/issues)
+[![release][release]](https://github.com/bryanwayb/http-tasker/releases) [![development][development]](https://github.com/bryanwayb/http-tasker/tags) [![grade][grade]](https://www.codacy.com/app/bryanwayb/http-tasker) [![issues][issues]](https://github.com/bryanwayb/http-tasker/issues)
 
 [release]:	https://img.shields.io/github/release/bryanwayb/http-tasker.svg		"Latest Release Version"
 [development]:	https://img.shields.io/github/tag/bryanwayb/http-tasker.svg?label=dev	"In "Latests Development Version"
