@@ -1,6 +1,6 @@
 {
   "name": "http-tasker",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "HTTP triggered task server",
   "main": "index.js",
   "scripts": {
