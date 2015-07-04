@@ -1,9 +1,4 @@
-[![release][release]](https://github.com/bryanwayb/http-tasker/releases) [![development][development]](https://github.com/bryanwayb/http-tasker/tags) [![grade][grade]](https://www.codacy.com/app/bryanwayb/http-tasker) [![issues][issues]](https://github.com/bryanwayb/http-tasker/issues)
-
-[release]:	https://img.shields.io/github/release/bryanwayb/http-tasker.svg		"Latest Release Version"
-[development]:	https://img.shields.io/github/tag/bryanwayb/http-tasker.svg?label=dev	"In "Latests Development Version"
-[grade]:	https://img.shields.io/codacy/86865fef7370487e901b766a407c501c.svg	"Codacy Grade"
-[issues]:	https://img.shields.io/github/issues/bryanwayb/http-tasker.svg		"Open Issues"
+[![Latest Release Version](https://img.shields.io/github/release/bryanwayb/http-tasker.svg)](https://github.com/bryanwayb/http-tasker/releases) [![Latests Development Version](https://img.shields.io/github/tag/bryanwayb/http-tasker.svg?label=dev)](https://github.com/bryanwayb/http-tasker/tags) [![Codacy Grade](https://img.shields.io/codacy/86865fef7370487e901b766a407c501c.svg)](https://www.codacy.com/app/bryanwayb/http-tasker) [![Open Issues](https://img.shields.io/github/issues/bryanwayb/http-tasker.svg)](https://github.com/bryanwayb/http-tasker/issues)
 
 `http-tasker` is a very small and lightweight tasking service library utilizing the `http` module. It's primary use is to provide a shortcut for mapping URL paths to functions. Useful for API building, scheduling scripts, etc...
 
